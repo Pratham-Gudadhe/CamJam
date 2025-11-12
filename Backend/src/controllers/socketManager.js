@@ -10,7 +10,7 @@ export const connectToSocket = (server) => {
             origin : "*",
             methods : ["GET","POST"],
             allowedHeaders : ["*"],
-            credentials : true,
+            credentials : true
         }
     });
 
@@ -19,7 +19,7 @@ export const connectToSocket = (server) => {
         console.log("SOMETHING CONNECTED");
 
         socket.on("join-call", (path)=>{
-            if(connections[path] == undefined){
+            if(connections[path] === undefined){
                 connections[path] = [];
             }
             connections[path].push(socket.id);
