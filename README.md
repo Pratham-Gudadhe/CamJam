@@ -1,10 +1,12 @@
 # 🎥 CamJam  
+
 A real-time video conferencing web application built with React, inspired by Zoom.  
 Users can create or join virtual meeting rooms, share audio/video, chat, and collaborate seamlessly.
 
 ---
 
 ## 🧭 Table of Contents  
+
 - [Features](#features)  
 - [Tech Stack](#tech-stack)  
 - [Setup & Installation](#setup-installation)  
@@ -17,6 +19,7 @@ Users can create or join virtual meeting rooms, share audio/video, chat, and col
 ---
 
 ## 🚀 Features  
+
 - Create or join a meeting room via unique URL  
 - Real-time video & audio streaming using WebRTC  
 - Text chat within a meeting room  
@@ -28,6 +31,7 @@ Users can create or join virtual meeting rooms, share audio/video, chat, and col
 ---
 
 ## 🛠️ Tech Stack  
+
 **Frontend (client)**:  
 - React (JavaScript)  
 - CSS / optional UI framework  
@@ -46,27 +50,41 @@ Users can create or join virtual meeting rooms, share audio/video, chat, and col
 
 ---
 
-## 📦 Setup & Installation  
+## 📁 Folder Structure  
+CamJam/
+├── Backend/                # Node.js + Express backend (signalling server)
+│   ├── app.js
+│   ├── routes/
+│   ├── controllers/
+│   ├── models/
+│   ├── package.json
+│   └── .env
+├── frontend/               # React client app
+│   ├── src/
+│   │   ├── contexts/
+│   │   ├── pages/
+│   │   ├── utils/
+│   │   ├── styles/
+│   │   ├── app.js
+│   │   └── index.js
+│   ├── public/
+│   ├── package.json
+│   └── .env
+├── .gitignore
+└── README.md  
 
-### Prerequisites  
-Make sure you have:  
-- Node.js (v16+ recommended)  
-- npm or yarn  
+## 🤝 Contributing  
 
-### Clone the repository  
-```bash
-git clone https://github.com/Pratham-Gudadhe/CamJam.git
-cd CamJam
+Thanks for your interest in contributing!  
+1. Fork the repository  
+2. Create your feature branch (git checkout -b feature/YourFeature)  
+3. Commit your changes (git commit -m 'Add some feature')  
+4. Push to your fork (git push origin feature/YourFeature)  
+5. Open a Pull Request  
 
-### Install Dependencies  
-1.**Backend**
-```bash
-cd Backend
-npm install
+Please make sure your code follows the existing style and includes relevant comments and documentation.  
 
-2.**Frontend**
-```bash
-cd frontend
-npm install
+## ✨ Author  
 
-
+Developed by Pratham Gudadhe  
+Feel free to open issues or reach out via GitHub.  
