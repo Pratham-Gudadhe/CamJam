@@ -51,27 +51,30 @@ Users can create or join virtual meeting rooms, share audio/video, chat, and col
 ---
 
 ## 📁 Folder Structure  
-CamJam/
-├── Backend/                # Node.js + Express backend (signalling server)
-│   ├── app.js
-│   ├── routes/
-│   ├── controllers/
-│   ├── models/
-│   ├── package.json
-│   └── .env
-├── frontend/               # React client app
-│   ├── src/
-│   │   ├── contexts/
-│   │   ├── pages/
-│   │   ├── utils/
-│   │   ├── styles/
-│   │   ├── app.js
-│   │   └── index.js
-│   ├── public/
-│   ├── package.json
-│   └── .env
-├── .gitignore
+
+CamJam/  
+├── Backend/                # Node.js + Express backend (signalling server)  
+│   ├── app.js  
+│   ├── routes/  
+│   ├── controllers/  
+│   ├── models/  
+│   ├── package.json  
+│   └── .env  
+├── frontend/               # React client app  
+│   ├── src/  
+│   │   ├── contexts/  
+│   │   ├── pages/  
+│   │   ├── utils/  
+│   │   ├── styles/  
+│   │   ├── app.js  
+│   │   └── index.js  
+│   ├── public/  
+│   ├── package.json  
+│   └── .env  
+├── .gitignore  
 └── README.md  
+
+---
 
 ## 🤝 Contributing  
 
@@ -83,6 +86,8 @@ Thanks for your interest in contributing!
 5. Open a Pull Request  
 
 Please make sure your code follows the existing style and includes relevant comments and documentation.  
+
+---
 
 ## ✨ Author  
 
