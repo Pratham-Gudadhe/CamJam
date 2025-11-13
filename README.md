@@ -42,7 +42,7 @@ Users can create or join virtual meeting rooms, share audio/video, chat, and col
 **Other tools**:  
 - UUID / nanoid for unique room IDs  
 - dotenv for environment variables  
-- (Optional) deployment via Vercel / Netlify (frontend), Heroku / Railway / Render (backend)  
+- Deployment via Render  
 
 ---
 
@@ -58,10 +58,13 @@ Make sure you have:
 git clone https://github.com/Pratham-Gudadhe/CamJam.git
 cd CamJam
 
+### Install Dependencies  
+1.**Backend**
 ```bash
 cd Backend
 npm install
 
+2.**Frontend**
 ```bash
 cd frontend
 npm install
